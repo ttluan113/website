@@ -1,0 +1,56 @@
+.wrapper{
+    margin-top: 100px;
+}
+
+.form-bank{
+    width: 500px;
+    height: 610px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin:10px;
+}
+
+.img-qr{
+    width: 250px;
+    height: 250px;
+}
+
+.img-bank{
+    width: 80%;
+    height: 100px;
+}
+
+.form-bank li{
+    list-style: none;
+    color: black;
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.spinner{
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+.wrapper-bank{
+    display: flex;
+}
+
+
+@media only screen and (max-width : 46.1875em){
+    .wrapper-bank{
+        display: block;
+    }
+
+    .form-bank{
+        width: 95%;
+    }
+}

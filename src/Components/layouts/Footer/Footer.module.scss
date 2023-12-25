@@ -1,0 +1,33 @@
+.wrapper{
+    width: 100%;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+
+.img-footer{
+    width: 200px;
+    height: 50px;
+}
+
+@media only screen and (max-width : 46.1875em){
+    .wrapper{
+        width: 100%;
+        height: 300px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+}

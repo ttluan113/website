@@ -1,0 +1,81 @@
+.wrapper{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: fixed;
+}
+
+//Logo
+
+.logo{
+    width: 170px;
+    height: 45px;
+    background-image: none;
+    padding-left: 6px;
+}
+
+
+// Container User 
+
+.container-user{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 50px;
+}
+
+.input-login{
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid #e8e8e8;
+    padding-left: 10px;
+}
+
+
+
+.btn-login{
+    background: none;
+    border: none;
+    color: white;
+}
+
+.btn-reg{
+    width: 120px;
+    height: 40px;
+    border-radius: 99px;
+    background: linear-gradient(134.05deg, #4c2fff 11.81%, #f60bff 93.44%);
+    line-height: 21px;
+    color: #ffffff;
+    border: none;
+
+}
+
+.containerUser{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(134.05deg, #4c2fff 11.81%, #f60bff 93.44%);
+}
+
+
+
+
+
+//Moblie
+@media only screen and (max-width : 739px){
+    .input-search{
+        display: none;
+    }
+   
+}
+

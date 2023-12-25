@@ -1,0 +1,61 @@
+.wrapper{
+    margin: 50px auto;
+}
+
+.content-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-content{
+    width: 200px;
+    height: 50px;
+}
+
+.li-content{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-creat{ 
+    width: 230px;
+    height: 55px;
+    margin-top: 20px;
+    background: linear-gradient(134.05deg, #4c2fff 11.81%, #f60bff 93.44%);
+    border-radius: 99px;
+    color: #ffffff;
+    line-height: 32px;
+    animation: mymove 3s infinite ease-in-out;
+    outline: none;
+    border: none;
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+@keyframes mymove {
+    50% {
+        box-shadow: 0px 0px 30px #f5c1ff;
+    }
+}
+// Moblie 
+
+@media only screen and (max-width : 46.1875em){
+    .li-content{
+        list-style: none;
+        color: white;
+        font-size: 15px;
+    }
+    .content-left{
+        width: 90%;
+        margin: 0px auto;
+    }
+}

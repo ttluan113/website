@@ -1,0 +1,101 @@
+.wrapper{
+    background: white;
+}
+
+.img-login{
+    width: 200px;
+    height: 50px;
+    margin: 5px 10px;
+}
+
+.login-right{
+    width: 45%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.login-left{
+    width: 55%;
+    margin-top: 20px;
+}
+
+.banner-login{
+    width: 99%;
+}
+
+.content-login{
+    display: flex;
+}
+
+.nigol_title{
+    margin: 20px;
+}
+
+
+.h2-login{
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.span-login{
+    color: #959595;
+    display: block;
+    margin: 15px 0px 0px 0px;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    margin: 20px ;
+    gap: 10px;
+}
+
+.input-login{
+    width: 90%;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    padding: 14px 20px;
+}
+
+.btn-login{
+    font-weight: 600;
+    color: #fff;
+    display: table;
+    text-align: center;
+    background: linear-gradient(134.05deg, #4C2FFF 11.81%, #F60BFF 93.44%), #CFCFCF;
+    border-radius: 5px;
+    width: 90%;
+    border: none;
+    padding: 17px 0px;
+    margin-top: 30px;
+}
+
+.tg_dndk_btn_2023{
+    text-align: center;
+}
+
+
+// Mobile 
+@media only screen and (max-width : 739px){
+    .content-login{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login-right{
+        width: 100%;
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    .login-left{
+        width: 95%;
+        margin: 9px auto;
+    }
+    
+   
+}

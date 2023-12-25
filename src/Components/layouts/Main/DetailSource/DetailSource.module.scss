@@ -1,0 +1,120 @@
+.wrapper{
+    margin-top: 60px;
+}
+
+.detail-left{
+    width: 50%;
+    height: 400px;
+}
+
+.img-detail{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.wrapper-detail{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.detail-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    background: linear-gradient(134.05deg, #4c2fff 11.81%, #f60bff 93.44%);
+    border-radius:0px  10px 10px 0px;
+}
+
+.btn-detail{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.btn-detail-list-1{
+        width: 100px;
+        height: 35px;
+        background: linear-gradient(134.05deg, #4c2fff 11.81%, #f60bff 93.44%);
+        border-radius: 99px;
+        color: #ffffff;
+        animation: mymove 3s infinite ease-in-out;
+        outline: none;
+        border: none;
+}
+
+@keyframes mymove {
+    50% {
+        box-shadow: 0px 0px 30px #f5c1ff;
+    }
+}
+
+.btn-detail-list-2{
+    width: 100px;
+    height: 35px;
+    border-radius: 99px;
+    outline: none;
+    border: none;
+}
+.img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img img{
+    width: 80%;
+    border-radius: 20px;
+}
+
+
+.modal-body{
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // gap: 10px;
+    input{
+        width: 80%;
+        height: 35px;
+        margin: 10px;
+    }
+}
+
+// Mobile 
+
+
+@media only screen and (max-width : 46.1875em){
+    .wrapper-detail{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .detail-left{
+        width: 95%;
+        padding-top: 10px;
+    }
+
+    .detail-left img{
+        border-radius: 10px;
+    }
+
+
+    .detail-right{
+        width: 95%;
+        margin-top: 10px;
+        border-radius: 10px;
+        height: 300px;
+    }
+}
